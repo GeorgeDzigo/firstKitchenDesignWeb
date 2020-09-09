@@ -1,0 +1,63 @@
+@import 'scss/base/reset';
+@import 'scss/base/reset';
+
+header{
+    background: whitesmoke;
+    position: sticky;
+    .header-img{
+        width: 400px;
+    }
+    .navigation{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
+   .social-ul{
+    display: flex;
+    float: right;
+    
+    .social-li{
+        justify-content: flex-start;
+
+        .social-a i{
+            width: 70px;
+            transition: all 1.5s ease;
+            &:hover{
+                width: 120px;
+            }
+        
+        }
+        
+    }
+   }
+   .navigation-ul{
+    display: flex;
+    float: right;
+     
+    .navigation-li{
+    justify-content: flex-end;
+    font-size: 195%;
+    margin-right: 100px;
+      
+        
+    .navigation-a{
+        color: blue;
+        transition: all 1.5s ease;
+        &:hover{
+            color: rbg(91, 20 ,241);
+            font-size: 200%;
+
+                        }
+
+                    }
+                
+                }
+     
+            }
+
+        }
+
+    }
+    .img{
+        width: 250px;
+
+    }
